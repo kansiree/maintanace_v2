@@ -27,17 +27,24 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
+### `npm install gh-pages --save-dev`
+install github page 
+
+### `npm run deploy`
+deploy with github page
+Open https://{githubname}.github.io/{reponame}/
+
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you canâ€™t go back!**
+**Note: this is a one-way operation. Once you `eject`, you canâ€ÿt go back!**
 
-If you arenâ€™t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+If you arenâ€ÿt satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point youâ€™re on your own.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point youâ€ÿre on your own.
 
-You donâ€™t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldnâ€™t feel obligated to use this feature. However we understand that this tool wouldnâ€™t be useful if you couldnâ€™t customize it when you are ready for it.
+You donâ€ÿt have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldnâ€ÿt feel obligated to use this feature. However we understand that this tool wouldnâ€ÿt be useful if you couldnâ€ÿt customize it when you are ready for it.
 
 ## Learn More
 
