@@ -1,10 +1,16 @@
 import './App.css';
 import NavBarMaintenance from './components/Nav/Nav';
 
+import Main from './RoutesPage';
+
 function App() {
 
   return (
-    <NavBarMaintenance></NavBarMaintenance>
+    <>
+      <NavBarMaintenance/>
+      <Main></Main>
+    </>
+
   );
 }
 
