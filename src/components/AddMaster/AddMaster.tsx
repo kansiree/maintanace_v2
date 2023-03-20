@@ -4,10 +4,9 @@ import ConfigApplication from '../../application.json'
 export default function AddMaster() {
 
     const URL = (ConfigApplication.developMode==="Y")?ConfigApplication.API_URL_LOCAL:ConfigApplication.API_URL;
-    console.log("URL: "+URL);
    
     const type = React.useRef<HTMLSelectElement>(null);
-    const detail = React.useRef<HTMLSelectElement>(null);
+    const detail = React.useRef<HTMLTextAreaElement>(null);
     const btSave = React.useRef<HTMLButtonElement>(null);
 
     const onClickSave = () =>{
@@ -34,7 +33,7 @@ export default function AddMaster() {
         <Form>
             <Container>
                 <FloatingLabel controlId="floatingSelect" label="Select Type" >
-                    <Form.Select aria-aria-label="Floating label select example" ref={type}>
+                    <Form.Select  ref={type}>
                         <option value="-1">Select Type</option>
                         <option value="system">System</option>
                         <option value="aircraft">Aircraft</option>
@@ -42,7 +41,7 @@ export default function AddMaster() {
                     </Form.Select>
                 </FloatingLabel>
                 <FloatingLabel controlId="floatingText" label="Detail" style={{marginTop:10}}>
-                    <Form.Control as="textarea" >
+                    <Form.Control as="textarea"  ref={detail}>
                         
                     </Form.Control>
                 </FloatingLabel>
